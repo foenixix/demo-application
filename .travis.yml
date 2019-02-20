@@ -4,7 +4,7 @@ python:
   - "3.7"  
 # command to install dependencies
 install:
-  - install graphviz
+  - sudo apt-get install graphviz
   - pip install -U -r requirements.txt
   - pip install .
 # command to run tests
